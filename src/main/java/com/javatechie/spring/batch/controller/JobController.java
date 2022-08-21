@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/jobs")
-public class JobController {
+public class  JobController {
 
     @Autowired
     private JobLauncher jobLauncher;
